@@ -29,18 +29,9 @@ FFmpeg 기반 RTSP CCTV 영상 녹화 자동화 스크립트입니다.
 ```bash
 ffmpeg -version
 python3 --version# rtsp-recorder
-
-
----
-## 📁 Project Structure
-
-rtsp-recorder/
-├── record.sh
-├── camera.env
-└── README.md
+```
 
 ---
-
 ## ⚙️ Environment File Example
 
 ```bash
@@ -53,6 +44,7 @@ CAMERA_1_PASS="password"
 CAMERA_1_PROFILE="profile1"
 CAMERA_1_PATH="stream1"
 CAMERA_1_NAME="gate_cam"
+```
 
 ---
 
@@ -60,15 +52,6 @@ CAMERA_1_NAME="gate_cam"
 
 ```bash
 ./record.sh <ENV_FILE> <CAMERA_NO> <DURATION_SECONDS>
-
-```bash
 ./record.sh camera.env 1 60
+```
 
----
-
-## 📂 Output Structure
-
-${RECORD_BASE_DIR}/
- └── CAMERA_NAME/
-     └── YYYYMMDD/
-         └── CAMERA_NAME_YYYYMMDDHHMMSS.mp4
