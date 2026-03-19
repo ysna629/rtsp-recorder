@@ -1,0 +1,16 @@
+# Claude Code
+CLAUDE.md
+
+# Environment files with credentials
+env/*.env
+
+# Recording output
+*.mp4
+
+# macOS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~

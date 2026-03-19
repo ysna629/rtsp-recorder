@@ -28,7 +28,7 @@ FFmpeg 기반 RTSP CCTV 영상 녹화 자동화 스크립트입니다.
 
 ```bash
 ffmpeg -version
-python3 --version# rtsp-recorder
+python3 --version
 ```
 
 ---
